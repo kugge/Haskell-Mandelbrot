@@ -1,2 +1,2 @@
 # Haskell-Mandelbrot
-Plotting Mandelbrot Set with Haskell.
+Plotting Mandelbrot Set with Haskell and Gloss.
