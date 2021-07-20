@@ -1,0 +1,40 @@
+cabal-version:      2.4
+name:               Haskell-Mandelbrot
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis: Plotting Mandelbrot set with Gloss
+
+-- A longer description of the package.
+-- description: Plotting Mandelbrot set with Gloss and Haskell.
+
+-- A URL where users can report bugs.
+-- bug-reports: https://github.com/Kugge/Haskell-Mandelbrot
+
+-- The license under which the package is released.
+-- license: GNU3
+
+-- The package author(s).
+-- author: Sofiane DJERBI (@Kugge)
+
+-- An email address to which users can send suggestions, bug reports, and patches.
+-- maintainer: sofiane.djerbi38@gmail.com
+
+-- A copyright notice.
+-- copyright: Open-Source
+-- category: Open-Source
+extra-source-files:
+    CHANGELOG.md
+    README.md
+
+executable Haskell-Mandelbrot
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.14.2.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
